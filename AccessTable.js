@@ -166,7 +166,7 @@
 		var b5=isBetween(on.downOffset+on.MyHeight,bot.downOffset,bot.leftOffset+bot.MyHeight);
 		
 		if(((b1==0)||(b2==0)||(b1==-1&&b2==1))&&((b4==0)||(b5==0)||(b4==-1&&b5==1))){
-			alert(b1+" "+b2+" "+b4+" "+b5);
+//			alert(b1+" "+b2+" "+b4+" "+b5);
 			if(b1==0){
 				leftOff.push(PxToInt(on.style.left)-PxToInt(bot.style.left));
 				startDst.push(on.startDst);
